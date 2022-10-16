@@ -1,13 +1,19 @@
 package ChapterHomework.Homework10;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static final int lethalOverdose = 11000;
 
     public static void main(String[] args) {
 
-        int caffeineInCoke = 34;
-        int caffeineInCoffee = 160;
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Koladaki kafein miktarını girin:");
+        int caffeineInCoke =scan.nextInt(); //34
+        System.out.println("Kahvedeki kafein miktarını girin:");
+        int caffeineInCoffee =scan.nextInt(); //160
 
         int ratioOfTheCokeToKillPerson = lethalOverdose / caffeineInCoke;
         int ratioOfTheCoffeeToKillPerson = lethalOverdose / caffeineInCoffee;

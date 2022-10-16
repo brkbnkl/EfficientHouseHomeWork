@@ -1,15 +1,23 @@
 package ChapterHomework.Homework4;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static final double SweetenerFraction = 0.001;
 
     public static void main(String[] args) {
-        double amountSweetenerToKillMouse = 0.00011;
-        double weightOfMouse = 0.25;
 
-        double weightOfDieter = 100;
-        double desiredWeightOfDieter = 80;
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Fareyi öldürmek için gerekli tatlandırıcı miktarını girin:");
+        double amountSweetenerToKillMouse =scan.nextDouble(); //0.00011
+        System.out.println("Farenin kg cinsinden ağırlığını giriniz:");
+        double weightOfMouse =scan.nextDouble(); //0.25
+        System.out.println("Diyet yapan kişini ağırlığını kg cinsinden giriniz:");
+        double weightOfDieter =scan.nextInt();  //100
+        System.out.println("Ulaşılması gereken ağırlığı kg cinsinden giriniz:");
+        double desiredWeightOfDieter =scan.nextInt(); //80
 
         int safeUseSoda = (int)(((amountSweetenerToKillMouse / weightOfMouse) * desiredWeightOfDieter) / SweetenerFraction);
 

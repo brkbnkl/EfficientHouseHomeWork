@@ -1,10 +1,14 @@
 package ChapterHomework.Homework2;
 
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        int cuponNumber = 36;
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Kupon sayısı giriniz:");
+        int cuponNumber = scan.nextInt();  //36
 
         int getCandy = cuponNumber / 10 ;
 

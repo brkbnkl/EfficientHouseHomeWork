@@ -1,9 +1,16 @@
 package ChapterHomework.Homework3;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        String first = "walt";   //Erkbay
-        String last = "savitch";  //Enkelbay
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("İlk kelimeyi giriniz:");
+        String first = scan.nextLine();   //walt
+        System.out.println("İkinci kelimeyi giriniz:");
+        String last =scan.nextLine(); //savitch
+
         String result = result(first) + " " + result(last);
         System.out.println(result);  //"Erkbay Enkelbay"
 
