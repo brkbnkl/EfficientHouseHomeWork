@@ -1,8 +1,8 @@
-package ChapterHomework.Homework10;
+package Chapter02Homeworks;
 
 import java.util.Scanner;
 
-public class Main {
+public class Question10 {
 
     public static final int lethalOverdose = 11000;
 

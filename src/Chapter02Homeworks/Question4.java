@@ -1,8 +1,8 @@
-package ChapterHomework.Homework4;
+package Chapter02Homeworks;
 
 import java.util.Scanner;
 
-public class Main {
+public class Question4 {
 
     public static final double SweetenerFraction = 0.001;
 

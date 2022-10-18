@@ -1,8 +1,8 @@
-package ChapterHomework.Homework6;
+package Chapter02Homeworks;
 
 import java.util.Scanner;
 
-public class Main {
+public class Question6 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

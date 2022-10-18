@@ -1,15 +1,12 @@
-package ChapterHomework.Homework3;
+package Chapter01Homeworks;
 
 import java.util.Scanner;
 
-public class Main {
+public class Q3 {
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-        System.out.println("İlk kelimeyi giriniz:");
-        String first = scan.nextLine();   //walt
-        System.out.println("İkinci kelimeyi giriniz:");
-        String last =scan.nextLine(); //savitch
+        String first = "walt";
+        String last ="savitch";
 
         String result = result(first) + " " + result(last);
         System.out.println(result);  //"Erkbay Enkelbay"
