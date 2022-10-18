@@ -1,10 +1,9 @@
-package Chapter02Homeworks;
+package chapter02homeworks;
 
 import java.util.Scanner;
 
 public class Question1 {
     public static void main(String[] args) {
-
 
 
         Scanner scanner = new Scanner(System.in);
@@ -17,9 +16,5 @@ public class Question1 {
         double bmi = kg / (height * height);
 
         System.out.println("Your BMI is : " + bmi);
-    }
-
-    public void deneme() {
-        System.out.println("ben nesnenin methoduyum");
     }
 }

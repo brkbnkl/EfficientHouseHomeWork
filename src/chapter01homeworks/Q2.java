@@ -1,7 +1,5 @@
-package Chapter01Homeworks;
+package chapter01homeworks;
 
-
-import java.util.Scanner;
 
 public class Q2 {
     public static void main(String[] args) {
@@ -16,9 +14,9 @@ public class Q2 {
 
         cuponNumber = cuponNumber % 3;
 
-        System.out.println("Alabileceğimiz candy sayisi : " + getCandy);
-        System.out.println("Alabileceğimiz gumball sayisi : " + getGumball);
-        System.out.println("Artan kupon sayısı : " + cuponNumber);
+        System.out.println("The number of candies you can buy : " + getCandy);
+        System.out.println("The number of gums you can buy : " + getGumball);
+        System.out.println("Increased number of coupons : " + cuponNumber);
         }
     }
 

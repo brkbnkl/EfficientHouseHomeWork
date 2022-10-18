@@ -1,6 +1,6 @@
-package Chapter02Homeworks;
+package chapter01homeworks;
 
-public class Question8 {
+public class Q8 {
 
     public static final double distance = 6.21;
 

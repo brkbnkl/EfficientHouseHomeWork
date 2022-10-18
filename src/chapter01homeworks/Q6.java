@@ -1,6 +1,4 @@
-package Chapter01Homeworks;
-
-import java.util.Scanner;
+package chapter01homeworks;
 
 public class Q6 {
     public static void main(String[] args) {

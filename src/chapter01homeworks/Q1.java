@@ -1,6 +1,4 @@
-package Chapter01Homeworks;
-
-import java.util.Scanner;
+package chapter01homeworks;
 
 public class Q1 {
     public static void main(String[] args) {
@@ -12,8 +10,5 @@ public class Q1 {
 
         System.out.println("Your BMI is : " + bmi);
     }
-
-    public void deneme() {
-        System.out.println("ben nesnenin methoduyum");
-    }
 }
+

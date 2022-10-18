@@ -1,4 +1,4 @@
-package Chapter02Homeworks;
+package chapter02homeworks;
 
 import java.util.Scanner;
 
@@ -10,13 +10,13 @@ public class Question4 {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Fareyi öldürmek için gerekli tatlandırıcı miktarını girin:");
+        System.out.println("enter the amount of sweetener required to kill the mouse:");
         double amountSweetenerToKillMouse =scan.nextDouble(); //0.00011
-        System.out.println("Farenin kg cinsinden ağırlığını giriniz:");
+        System.out.println("enter the weight of the mouse in kg:");
         double weightOfMouse =scan.nextDouble(); //0.25
-        System.out.println("Diyet yapan kişini ağırlığını kg cinsinden giriniz:");
+        System.out.println("enter the weight of the dieter:");
         double weightOfDieter =scan.nextInt();  //100
-        System.out.println("Ulaşılması gereken ağırlığı kg cinsinden giriniz:");
+        System.out.println("enter the weight to be reached in kg:");
         double desiredWeightOfDieter =scan.nextInt(); //80
 
         int safeUseSoda = (int)(((amountSweetenerToKillMouse / weightOfMouse) * desiredWeightOfDieter) / SweetenerFraction);

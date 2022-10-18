@@ -1,4 +1,4 @@
-package Chapter02Homeworks;
+package chapter02homeworks;
 
 import java.util.Scanner;
 
@@ -6,9 +6,9 @@ public class Question3 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("İlk kelimeyi giriniz:");
+        System.out.println("Enter first words:");
         String first = scan.nextLine();   //walt
-        System.out.println("İkinci kelimeyi giriniz:");
+        System.out.println("Enter second words:");
         String last =scan.nextLine(); //savitch
 
         String result = result(first) + " " + result(last);

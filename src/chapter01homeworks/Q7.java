@@ -1,14 +1,9 @@
-package Chapter02Homeworks;
+package chapter01homeworks;
 
-import java.util.Scanner;
-
-public class Question7 {
+public class Q7 {
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-
-        System.out.println("Saniye değerini giriniz:");
-        int seconds =scan.nextInt(); //50391
+        int seconds = 50391;
 
         int hours = seconds / 3600;
         seconds %= 3600;

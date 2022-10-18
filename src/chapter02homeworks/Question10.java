@@ -1,4 +1,4 @@
-package Chapter02Homeworks;
+package chapter02homeworks;
 
 import java.util.Scanner;
 
@@ -10,9 +10,9 @@ public class Question10 {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Koladaki kafein miktarını girin:");
+        System.out.println("Amount of caffeine in colan:");
         int caffeineInCoke =scan.nextInt(); //34
-        System.out.println("Kahvedeki kafein miktarını girin:");
+        System.out.println("Amount of caffeine in coffee:");
         int caffeineInCoffee =scan.nextInt(); //160
 
         int ratioOfTheCokeToKillPerson = lethalOverdose / caffeineInCoke;

@@ -1,4 +1,4 @@
-package Chapter02Homeworks;
+package chapter02homeworks;
 
 import java.util.Scanner;
 
@@ -7,11 +7,11 @@ public class Question6 {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Ana para tutarını girin:");
+        System.out.println("Enter the principal amount:");
         int principalAmount =scan.nextInt(); //1000
-        System.out.println("Faiz oranını girin:");
+        System.out.println("Enter the interest rate:");
         double interestRate =scan.nextDouble(); //5.0
-        System.out.println("Yılı girin:");
+        System.out.println("Enter the year:");
         int numberOfYears =scan.nextInt(); //5
 
         double simpleInterest = (principalAmount * interestRate * numberOfYears) / 100;
