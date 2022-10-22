@@ -21,21 +21,19 @@ public class Homework2 {
 
     public static int mid(int a,int b,int c) {
 
-        int max;
-
         if (a > b && a>c)
-            if (b > c)
+            if (b >= c)
                 System.out.println(b);
             else
                 System.out.println(c);
 
         else if (b > a && b > c)
-            if (a > c)
+            if (a >= c)
                 System.out.println(a);
             else
                 System.out.println(c);
         else
-            if (a > b)
+            if (a >= b)
             System.out.println(a);
             else
                 System.out.println(b);
