@@ -37,12 +37,11 @@ public class SumCounts {
         int sum = 0;
         int count = 0;
 
-        while (count++ < a)  {
-
+        while (count++ < a)
+        {
             sum += count;
         }
         return sum;
-
     }
 
 }
