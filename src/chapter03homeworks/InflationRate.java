@@ -1,6 +1,6 @@
 package chapter03homeworks;
 
-public class Q4 {
+public class InflationRate {
     public static void main(String[] args)
     {
         run();
@@ -10,22 +10,21 @@ public class Q4 {
         java.util.Scanner kb = new java.util.Scanner(System.in);
 
         System.out.println("Enter the cost of item:");
-        double cost = kb.nextDouble();
+        double inputCost = kb.nextDouble();
 
         System.out.println("After years:");
-        int years = kb.nextInt();
+        int inputYears = kb.nextInt();
 
         System.out.println("Enter rate of inflation:");
-        double rate = kb.nextDouble() / 100;
+        double inputRate = kb.nextDouble() / 100;
 
-        System.out.printf("The cost after %d years will become %.2f" , years,calculate(cost,years,rate));
+        System.out.printf("The cost after %d years will become %.2f" , inputYears , calculateCostByYear(inputCost , inputYears , inputRate));
     }
-
-    public static double calculate(double cost,int years,double rate)
+    public static double calculateCostByYear(double cost , int years , double rate)
     {
         for (int i = 0 ; i < years ; i++)
                 cost += cost * rate;
 
-                return cost;
+        return cost;
     }
 }

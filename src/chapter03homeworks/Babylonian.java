@@ -1,27 +1,24 @@
 package chapter03homeworks;
 
-public class Q1 {
+public class Babylonian {
     public static void main(String[] args)
     {
         run();
     }
-
     public static void run()
     {
         java.util.Scanner kb = new java.util.Scanner(System.in);
         System.out.println("Enter a number:");
         double n = kb.nextDouble();
-        double guess = n/2;
-        double previousGuess;
 
-        System.out.printf("The square root of %.0f is %.2f" , n,guess );
+        System.out.printf("The square root of %.0f is %.2f" , n,babylonian(n));
     }
-
-    public static double babylonian(double previousGuess,double guess,double n)
+    public static double babylonian(double n)
     {
+        double guess = n/2;
 
         while (true) {
-            previousGuess = guess;
+            double previousGuess = guess;
             double r = n / guess;
             guess = (guess + r) / 2;
 
