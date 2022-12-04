@@ -39,41 +39,40 @@ public class Armstrong {
     }
     public static int run(int number)
     {
-        int digit = countDigits(number);
-        int num2 = number;
-        int bd = 0;
+        int digit = countDigits(number); //3
+        int num2 = number; //153
+        int baseNumber;
         int result = 0;
 
         while (num2 != 0) {
-            bd = num2 % 10;
-            result += pow(bd, digit);
-            num2 /= 10;
+            baseNumber = num2 % 10; //3 - 5  - 1
+            result += pow(baseNumber, digit); //27 - 152 - 153
+            num2 /= 10; //15 - 1 - 0
         }
-        return result;
+        return result; //153
     }
     public static boolean isArmstrong(int number)
     {
-        return number == run(number) && number > 0;
+        return number > 0 && number == run(number);  //true
     }
-    public static int pow(int a, int b)
+    public static int pow(int a, int b)  //int a = baseNumber = 3 - int b = digit = 3 (for 153 example)
     {
-
         int result = 1;
 
         while (0 < b--) {
-            result *= a;
+            result *= a;  //result = result * a
         }
         return result;
     }
-    public static int countDigits(int number)
+    public static int countDigits(int number)  //153
     {
         int count = 0;
 
         do {
-            count ++;
-            number /= 10;
-        } while (number != 0);
+            number /= 10;   // number = 15  -  number = 1  - number = 0
+            count ++;   //1  -  2  - 3
+        } while (number != 0);   //true - true  - false
 
-        return count;
+        return count;   // 3
     }
 }

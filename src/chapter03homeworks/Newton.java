@@ -34,7 +34,7 @@ public class Newton {
                 else if (choice.equalsIgnoreCase("m"))
                     weightOnMoon(weight);
                 else
-                    System.out.println("Please enter correct choose");
+                    System.out.println("Please enter correct choice");
             }
             else
                 System.out.println("Incorrect choice...try again");

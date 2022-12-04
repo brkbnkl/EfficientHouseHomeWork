@@ -5,7 +5,6 @@ public class ColorCode {
     {
         run();
     }
-
     public static void run()
     {
         String currentChar = "";
@@ -15,7 +14,6 @@ public class ColorCode {
     }
     public static String color(String currentChar, String pattern)
     {
-
         for (int i = 0; i < 5; ) {
 
             java.util.Scanner kb = new java.util.Scanner(System.in);
